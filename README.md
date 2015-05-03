@@ -1,7 +1,8 @@
 # streams2mongo
-A  small package to save twitter streams into a mongodb. Can be used with any other json stream.
+A  small package to save twitter streams into a mongodb. Can be used with any other json data piped into it
 
-Create your mongodb connection info by copying mong-example-conf.json to mongo.json and changing any parameters you need in the mongo.json file
+ streams2mongo --host MONGO_HOST --port MONGO_PORT --db MONGO_DB_NAME --collection MONGO_COLLECTION > streams2mongo.log
+
 
 ## Usage with the twitter npm library: 
 
