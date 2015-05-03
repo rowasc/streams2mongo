@@ -1,0 +1,33 @@
+{
+  "name": "streams2mongo",
+  "version": "0.0.1",
+  "description": "A  small package to save twitter streams into a mongodb. Can be used with any other json stream.",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rowasc/streams2mongo.git"
+  },
+  "bin": {
+    "streams2mongo": "./bin/cli"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "twitter": "~1.2.5",
+    "resolve": "~1.1.6",
+    "mongodb": "~2.0"
+  },
+  "devDependencies": {
+    "chai": "~2.3",
+    "mocha": "~2.2"
+  },
+  "scripts": {
+    "test": "mocha -u tdd"
+  },
+  "keywords": [
+    "twitter",
+    "streams",
+    "mongodb"
+  ],
+  "author": "rowasc",
+  "license": "MIT"
+}
